@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "660783080505",
+    "project_id": "kotlinmvvw",
+    "storage_bucket": "kotlinmvvw.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:660783080505:android:b5e517954eb3e287c0d9e8",
+        "android_client_info": {
+          "package_name": "com.example.kotlinmvvw"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAEpq5vtkuP5OVYd2snQPB59H-bkjz-lL8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
