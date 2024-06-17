@@ -6,17 +6,17 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.activity.AddProductActivity">
+    tools:context=".ui.activity.UpdateProductActivity">
 
     <ImageView
-        android:id="@+id/imageBrowse"
+        android:id="@+id/imageUpdate"
         android:layout_width="150dp"
         android:layout_gravity="center"
         android:src="@drawable/baseline_add_a_photo_24"
         android:layout_height="150dp"/>
 
     <TextView
-        android:id="@+id/TextViewBrowse"
+        android:id="@+id/TextViewUpdate"
         android:layout_width="wrap_content"
         android:layout_gravity="center"
         android:layout_marginBottom="20sp"
@@ -24,10 +24,10 @@
         android:layout_height="wrap_content"/>
 
     <EditText
-        android:id="@+id/editProductName"
+        android:id="@+id/ProductNameUpdate"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="30dp"
         android:ems="10"
         android:inputType="text"
         android:hint="Enter product name"
@@ -35,7 +35,7 @@
         tools:layout_editor_absoluteY="56dp" />
 
     <EditText
-        android:id="@+id/editProductDesc"
+        android:id="@+id/ProductDescUpdate"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -45,7 +45,7 @@
         tools:layout_editor_absoluteY="181dp" />
 
     <EditText
-        android:id="@+id/editProductPrice"
+        android:id="@+id/ProductPriceUpdate"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -55,9 +55,9 @@
         tools:layout_editor_absoluteY="284dp" />
 
     <Button
-        android:id="@+id/btnSave"
+        android:id="@+id/btnUpdate"
         android:layout_width="wrap_content"
         android:gravity="center"
         android:layout_height="wrap_content"
-        android:text="Save" />
+        android:text="Update" />
 </LinearLayout>
