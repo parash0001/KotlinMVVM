@@ -1,4 +1,4 @@
-package com.example.kotlinmvvw.ui.activity
+package com.example.kotlinmvvm.ui.activity
 
 import android.os.Bundle
 import android.widget.Toast
@@ -6,8 +6,8 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
-import com.example.kotlinmvvw.R
-import com.example.kotlinmvvw.databinding.ActivityForgetBinding
+import com.example.kotlinmvvm.R
+import com.example.kotlinmvvm.databinding.ActivityForgetBinding
 import com.google.firebase.auth.FirebaseAuth
 
 class ForgetActivity : AppCompatActivity() {

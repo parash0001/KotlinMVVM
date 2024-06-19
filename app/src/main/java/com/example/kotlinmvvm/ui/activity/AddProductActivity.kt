@@ -1,4 +1,4 @@
-package com.example.kotlinmvvw.ui.activity
+package com.example.kotlinmvvm.ui.activity
 
 import android.content.Intent
 import android.content.pm.PackageManager
@@ -10,13 +10,13 @@ import androidx.activity.result.ActivityResultLauncher
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
-import com.example.kotlinmvvw.R
-import com.example.kotlinmvvw.databinding.ActivityAddProductBinding
-import com.example.kotlinmvvw.model.ProductModel
-import com.example.kotlinmvvw.repository.ProductRepositoryImpl
-import com.example.kotlinmvvw.utils.LoadingUtils
-import com.example.kotlinmvvw.utils.imageUtils
-import com.example.kotlinmvvw.viewmodel.ProductViewModel
+import com.example.kotlinmvvm.R
+import com.example.kotlinmvvm.databinding.ActivityAddProductBinding
+import com.example.kotlinmvvm.model.ProductModel
+import com.example.kotlinmvvm.repository.ProductRepositoryImpl
+import com.example.kotlinmvvm.utils.LoadingUtils
+import com.example.kotlinmvvm.utils.imageUtils
+import com.example.kotlinmvvm.viewmodel.ProductViewModel
 import com.squareup.picasso.Picasso
 import java.util.UUID
 

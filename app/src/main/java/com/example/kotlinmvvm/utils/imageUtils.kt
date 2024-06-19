@@ -1,4 +1,4 @@
-package com.example.kotlinmvvw.utils
+package com.example.kotlinmvvm.utils
 
 import android.content.Context
 import android.content.Intent

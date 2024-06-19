@@ -1,8 +1,8 @@
-package com.example.kotlinmvvw.repository
+package com.example.kotlinmvvm.repository
 
 
 import android.net.Uri
-import com.example.kotlinmvvw.model.ProductModel
+import com.example.kotlinmvvm.model.ProductModel
 
 interface ProductRepository {
 

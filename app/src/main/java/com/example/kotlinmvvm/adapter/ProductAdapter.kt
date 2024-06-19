@@ -1,4 +1,4 @@
-package com.example.kotlinmvvw.adapter
+package com.example.kotlinmvvm.adapter
 
 import android.content.Intent
 import android.view.LayoutInflater
@@ -9,9 +9,9 @@ import android.widget.ProgressBar
 import android.widget.TextView
 import android.widget.Toast
 import androidx.recyclerview.widget.RecyclerView
-import com.example.kotlinmvvw.R
-import com.example.kotlinmvvw.model.ProductModel
-import com.example.kotlinmvvw.ui.activity.UpdateProductActivity
+import com.example.kotlinmvvm.R
+import com.example.kotlinmvvm.model.ProductModel
+import com.example.kotlinmvvm.ui.activity.UpdateProductActivity
 import com.squareup.picasso.Callback
 import com.squareup.picasso.Picasso
 

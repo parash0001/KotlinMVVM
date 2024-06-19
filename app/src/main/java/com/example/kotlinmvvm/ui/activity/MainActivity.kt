@@ -1,4 +1,4 @@
-package com.example.kotlinmvvw.ui.activity
+package com.example.kotlinmvvm.ui.activity
 
 import android.content.Intent
 import android.os.Bundle
@@ -7,8 +7,8 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
-import com.example.kotlinmvvw.R
-import com.example.kotlinmvvw.databinding.ActivityMainBinding
+import com.example.kotlinmvvm.R
+import com.example.kotlinmvvm.databinding.ActivityMainBinding
 import com.google.firebase.auth.FirebaseAuth
 
 class MainActivity : AppCompatActivity() {

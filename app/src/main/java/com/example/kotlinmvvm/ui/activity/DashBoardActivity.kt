@@ -1,4 +1,4 @@
-package com.example.kotlinmvvw.ui.activity
+package com.example.kotlinmvvm.ui.activity
 
 import android.content.Intent
 import android.os.Bundle
@@ -11,11 +11,11 @@ import androidx.core.view.WindowInsetsCompat
 import androidx.recyclerview.widget.ItemTouchHelper
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.example.kotlinmvvw.R
-import com.example.kotlinmvvw.adapter.ProductAdapter
-import com.example.kotlinmvvw.databinding.ActivityDashBoardBinding
-import com.example.kotlinmvvw.repository.ProductRepositoryImpl
-import com.example.kotlinmvvw.viewmodel.ProductViewModel
+import com.example.kotlinmvvm.R
+import com.example.kotlinmvvm.adapter.ProductAdapter
+import com.example.kotlinmvvm.databinding.ActivityDashBoardBinding
+import com.example.kotlinmvvm.repository.ProductRepositoryImpl
+import com.example.kotlinmvvm.viewmodel.ProductViewModel
 
 class DashBoardActivity : AppCompatActivity() {
     lateinit var dashBoardBinding: ActivityDashBoardBinding

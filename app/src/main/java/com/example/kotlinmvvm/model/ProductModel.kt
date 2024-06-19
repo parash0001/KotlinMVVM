@@ -1,4 +1,4 @@
-package com.example.kotlinmvvw.model
+package com.example.kotlinmvvm.model
 
 import android.os.Parcel
 import android.os.Parcelable

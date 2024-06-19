@@ -1,8 +1,8 @@
-package com.example.kotlinmvvw.utils
+package com.example.kotlinmvvm.utils
 
 import android.app.Activity
 import android.app.AlertDialog
-import com.example.kotlinmvvw.R
+import com.example.kotlinmvvm.R
 
 class LoadingUtils (val activity: Activity) {
     lateinit var alertDialog: AlertDialog

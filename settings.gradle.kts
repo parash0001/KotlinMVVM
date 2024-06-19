@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "KotlinMVVW"
+rootProject.name = "KotlinMVVM"
 include(":app")
  

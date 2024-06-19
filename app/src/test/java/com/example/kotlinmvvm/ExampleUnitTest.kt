@@ -1,4 +1,4 @@
-package com.example.kotlinmvvw
+package com.example.kotlinmvvm
 
 import org.junit.Test
 

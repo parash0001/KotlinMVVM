@@ -1,10 +1,10 @@
-package com.example.kotlinmvvw.viewmodel
+package com.example.kotlinmvvm.viewmodel
 
 import android.net.Uri
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import com.example.kotlinmvvw.model.ProductModel
-import com.example.kotlinmvvw.repository.ProductRepository
+import com.example.kotlinmvvm.model.ProductModel
+import com.example.kotlinmvvm.repository.ProductRepository
 
 class ProductViewModel(val repository: ProductRepository) : ViewModel() {
 

@@ -1,8 +1,8 @@
-package com.example.kotlinmvvw.repository
+package com.example.kotlinmvvm.repository
 
 import android.net.Uri
 import android.util.Log
-import com.example.kotlinmvvw.model.ProductModel
+import com.example.kotlinmvvm.model.ProductModel
 import com.google.firebase.database.DataSnapshot
 import com.google.firebase.database.DatabaseError
 import com.google.firebase.database.FirebaseDatabase
